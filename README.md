@@ -1,3 +1,26 @@
+# 11 Dicas para desenvolvedores .NET
+
+###### Walt Ritscher que é um Senior Staff Instructor disse : "Mesmo que você seja desenvolvedor há muito tempo, ainda existem recursos que você não usou ou não conhece."
+
+##### Deu 11 dicas e novas bibliotecas entre elas uma que humaniza sua saída de strings e outra que gera dados falsos para testes de aplicativos e sistemas. São 11 branchs uma para cada lição.
+
+- Link do curso caso alguém tenha interesse de fazer e é assinante do Linked-in Learning : https://www.linkedin.com/learning/eleven-tips-for-the-dot-net-developer/dot-net-tips-for-you , caso não seja assinante você pode clonar meu prjeto e estudar as branchs, dei uma esclarecida em tópicos aqui no README.
+
+
+
+Dicas :
+- 1 => como publicar seu aplicativo .Net como um unico arquivo para fornecer a seus usuários, eles podem executar e conterá todo conteúdo, informações, tempo de execução do .NET e biblicotecas do .NET, (a maioria tem problemas quando usa bibliotecas externas).
+
+- 2 => Flatten sequence with LINQ Select Many - Nivelar coleções e subcoleções em sua própria sequência.
+
+- 3 => Use the Immutable List Collection - Muito melhor que DateTimeExtensions use TimeOnly e DateOnly, na implantação de arquivo único, SelectMany, DateOnly, Humanizer, ReadOnlyCollection. Combine, dados de teste falsos com Bogus, adição de endpoints de versão, contagem de caracteres de string Unicode, ToLookup e arquivos Zip.
+
+- 4 => Humanize, for human readable strings - Pega strings de entidades programáticas e formata em um formato mais legível por humanos, instale os pacotes de acordo com o tipo de seu projeto. Agilidade de desenvolvimento para essas situações.
+
+- 5 => Return readonly collection with asReadOnly - Retornando coleção somente leitura, evita de você cair em armadilha de engano se quiser impedir que seja adicionado itens a lista, impedindo que o consumidor do objeto modifique diretamente a lista, ou seja, não será possível adicionar, remover ou modificar elementos via a interface da coleção retornada.
+
+Esse padrão é útil para encapsulamento e proteção do estado interno de objetos, principalmente em APIs públicas, seguindo os princípios de imutabilidade e encapsulamento da POO.
+
 # 11 Tips for .NET Developers
 This is the repository for the LinkedIn Learning course 11 Tips for .NET Developers. The full course is available from [LinkedIn Learning][lil-course-url].
 
