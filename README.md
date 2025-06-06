@@ -17,9 +17,11 @@ Dicas :
 
 - 4 => Humanize, for human readable strings - Pega strings de entidades programáticas e formata em um formato mais legível por humanos, instale os pacotes de acordo com o tipo de seu projeto. Agilidade de desenvolvimento para essas situações.
 
-- 5 => Return readonly collection with asReadOnly - Retornando coleção somente leitura, evita de você cair em armadilha de engano se quiser impedir que seja adicionado itens a lista, impedindo que o consumidor do objeto modifique diretamente a lista, ou seja, não será possível adicionar, remover ou modificar elementos via a interface da coleção retornada.
+- 5 => Return readonly collection with asReadOnly - se quiser impedir que seja adicionado itens a lista, impedindo que o consumidor do objeto modifique diretamente a lista, ou seja, não será possível adicionar, remover ou modificar elementos via a interface da coleção retornada.
 
-Esse padrão é útil para encapsulamento e proteção do estado interno de objetos, principalmente em APIs públicas, seguindo os princípios de imutabilidade e encapsulamento da POO.
+"Esse padrão é útil para encapsulamento e proteção do estado interno de objetos, principalmente em APIs públicas, seguindo os princípios de imutabilidade e encapsulamento da POO."
+
+- 6 => Build Linux and Windows path strings - Independente o sistema operacional, lide com problemas de paths de forma muito prática.
 
 # 11 Tips for .NET Developers
 This is the repository for the LinkedIn Learning course 11 Tips for .NET Developers. The full course is available from [LinkedIn Learning][lil-course-url].
