@@ -1,0 +1,5 @@
+Testando :
+
+Testando a saida do código a construção do path
+
+É possível executar aplicativos .NET Core em...
