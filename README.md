@@ -26,10 +26,8 @@ Dicas :
 
 - 5 => Return readonly collection with asReadOnly - se quiser impedir que seja adicionado itens a lista, impedindo que o
   consumidor do objeto modifique diretamente a lista, ou seja, não será possível adicionar, remover ou modificar
-  elementos via a interface da coleção retornada.
-
-"Esse padrão é útil para encapsulamento e proteção do estado interno de objetos, principalmente em APIs públicas,
-seguindo os princípios de imutabilidade e encapsulamento da POO."
+  elementos via a interface da coleção retornada. "Esse padrão é útil para encapsulamento e proteção do estado interno de objetos,
+  principalmente em APIs públicas, seguindo os princípios de imutabilidade e encapsulamento da POO."
 
 - 6 => Build Linux and Windows path strings - Independente o sistema operacional, lide com problemas de paths de forma
   muito prática.
